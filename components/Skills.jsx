@@ -1,6 +1,14 @@
 
 import React from 'react'
 import Skill from './Skill'
+import htmlImg from '../public/assets/skills/html.png'
+import cssImg from '../public/assets/skills/css1.png'
+import javascriptLogo from '../public/assets/skills/JavaScript-logo.png'
+import react_logo from '../public/assets/skills/logo-react-icon.png'
+import nodeImg from '../public/assets/skills/node.png'
+import tailwindImg from '../public/assets/skills/tailwind.png'
+import mongoImg from '../public/assets/skills/mongo.png'
+import nextImg from '../public/assets/skills/nextjs.png'
 
 const Skills = () => {
   return (
@@ -11,42 +19,42 @@ const Skills = () => {
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
 
             <Skill 
-              skillImg= '/../public/assets/skills/html.png'
+              skillImg= {htmlImg}
               skillTitle= "HTML"
             />
 
             <Skill 
-              skillImg= '/../public/assets/skills/css.png'
+              skillImg= {cssImg}
               skillTitle= "CSS"
             />
 
             <Skill 
-              skillImg= '/../public/assets/skills/javascript.png'
+              skillImg= {javascriptLogo}
               skillTitle= "Javascript"
             />
 
             <Skill 
-              skillImg= '/../public/assets/skills/react.png'
+              skillImg= {react_logo}
               skillTitle= "React.js"
             />
 
             <Skill 
-              skillImg= '/../public/assets/skills/node.png'
+              skillImg= {nodeImg}
               skillTitle= "Node.js"
             />
 
             <Skill 
-              skillImg= '/../public/assets/skills/tailwind.png'
+              skillImg= {tailwindImg}
               skillTitle= "Tailwind"
             />
 
             <Skill 
-              skillImg= '/../public/assets/skills/mongo.png'
+              skillImg= {mongoImg}
               skillTitle= "Mongo"
             />
 
             <Skill 
-              skillImg= '/../public/assets/skills/nextjs.png'
+              skillImg= {nextImg}
               skillTitle= "Next.js"
             />
 
