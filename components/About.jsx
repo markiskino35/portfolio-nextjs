@@ -9,7 +9,7 @@ const About = () => {
             <div className='col-span-2'>
                 <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
                 <h2 className='py-4'>Who I am</h2>
-                <p className='py-2 text-gray-600'>// I am not your normal developer</p>
+                
                 <p className='py-2 text-gray-600'>  I specialize in building mobile responsive front-end UI applications
                 that connect with API&apos;s and other backend technologies. I&apos;m
                 passionate about learning new technologies and understand there is
